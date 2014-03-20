@@ -4,6 +4,6 @@ all:
 
 upgrade:
 	@echo "UPGRADE"
-	@sudo systemctl restart nginx
+	@sudo ./bin/upgrade.sh
 
 
