@@ -1,4 +1,3 @@
-
 all:
 	@echo "Doing all"
 
@@ -7,7 +6,7 @@ deploy:
 	@git push git@image.wowalo.com:~/testapp master
 
 update:
-	@echo "UPDATE"
+	@echo "Makefile: Doing UPDATE stuff like grunt, gulp, rake,..."
 	@whoami
 	@pwd
 
