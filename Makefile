@@ -6,7 +6,8 @@ deploy:
 	@echo "Pushing to production"
 	@git push git@image.wowalo.com:~/testapp master
 
-upgrade:
-	@echo "UPGRADE"
+update:
+	@echo "UPDATE"
+	@echo "$(whoami) $(pwd)"
 
 
