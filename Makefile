@@ -8,6 +8,7 @@ deploy:
 
 update:
 	@echo "UPDATE"
-	@echo "$(whoami) $(pwd)"
+	@whoami
+	@pwd
 
 
