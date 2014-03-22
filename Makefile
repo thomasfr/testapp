@@ -3,7 +3,7 @@ all:
 
 deploy:
 	@echo "Pushing to production"
-	@git push git@example.com:~/testapp master
+	@git push git@image.wowalo.com:~/testapp master
 
 update:
 	@echo "Makefile: UPDATE"
